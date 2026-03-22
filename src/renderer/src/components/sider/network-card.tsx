@@ -34,7 +34,7 @@ const IPCard: React.FC<Props> = (props) => {
   if (iconOnly) {
     return (
       <div className={`${networkCardStatus} flex justify-center`}>
-        <Tooltip content={t('sider.cards.ip')} placement="right">
+        <Tooltip content={t('sider.cards.network')} placement="right">
           <Button
             size="sm"
             isIconOnly
@@ -87,7 +87,7 @@ const IPCard: React.FC<Props> = (props) => {
           <h3
             className={`text-md font-bold text-ellipsis whitespace-nowrap overflow-hidden ${match ? 'text-primary-foreground' : 'text-foreground'}`}
           >
-            {t('sider.cards.ip')}
+            {t('sider.cards.network')}
           </h3>
         </CardFooter>
       </Card>
